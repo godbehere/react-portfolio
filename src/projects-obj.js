@@ -30,8 +30,22 @@ export const projectObj = [
             'CSS',
             'JavaScript'
             ],
-        description: 'Web app that uses threejs to animate furniture assembly in order to assist customers',
+        description: 'Landing page for a concept blog',
         link: 'http://food.godbehere.org/',
         github: 'https://github.com/godbehere/adventures-in-food',
     },
+    {
+        title: 'This Portfolio',
+        pic: process.env.PUBLIC_URL + '/assets/images/portfolio-gdb49c8631_1280.png',
+        tech: [
+            'React',
+            'HTML',
+            'CSS',
+            'JavaScript'
+            ],
+        description: 'Link to the repository for this portfolio!',
+        link: 'https://github.com/godbehere/react-portfolio',
+        github: 'https://github.com/godbehere/react-portfolio',
+    },
+
 ]

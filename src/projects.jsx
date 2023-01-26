@@ -17,7 +17,9 @@ function ProjectCard(props) {
     return (
         <Card sx={{ maxWidth: 345 }}>
         <CardMedia
-            sx={{ height: 140 }}
+            sx={{ height: 140,
+                minWidth: 345
+            }}
             image={props.proj.pic}
             title={props.proj.title}
         />
