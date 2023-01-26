@@ -18,7 +18,9 @@ export const projectObj = [
             'C#',
             'mySQL'
             ],
-        description: 'Web app that uses threejs to animate furniture assembly in order to assist customers',
+        description: 'This application is a tool to assist in creating quotes for elevator design and fabrication. ' + 
+                        'The software saves and loads quotes to a mySQL database as well as generates a DXF file ' +
+                        'of the elevator/pit which can be imported into AutoCAD',
         link: 'https://github.com/StellarisDesignSolutions/ElevatorQuoting',
         github: 'https://github.com/StellarisDesignSolutions/ElevatorQuoting',
     },
@@ -30,7 +32,7 @@ export const projectObj = [
             'CSS',
             'JavaScript'
             ],
-        description: 'Landing page for a concept blog',
+        description: 'Concept landing page for a food blog',
         link: 'http://food.godbehere.org/',
         github: 'https://github.com/godbehere/adventures-in-food',
     },
