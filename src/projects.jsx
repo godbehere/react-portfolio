@@ -1,5 +1,4 @@
 import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import { Link, Typography } from '@mui/material';
 import Container from '@mui/material/Container';
@@ -71,9 +70,8 @@ export default class Projects extends React.Component {
     render() {
         return (
             <React.Fragment>
-            <CssBaseline />
             <Container maxWidth="xl">
-                <Box sx={{ bgcolor: 'white', height: '100vh' }}>
+                <Box>
                     <Box sx={{ flexGrow: 1 }}>
                         <Grid container spacing={2}>
                             {this.testProjArray()}

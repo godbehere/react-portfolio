@@ -1,5 +1,4 @@
 import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
 import Container from '@mui/material/Container';
@@ -7,9 +6,8 @@ import Container from '@mui/material/Container';
 export default function AboutMe() {
   return (
     <React.Fragment>
-      <CssBaseline />
       <Container maxWidth="sm">
-        <Box sx={{ bgcolor: 'white' }}>
+        <Box>
             <Typography sx={{ textAlign: 'left' }} variant='h2'>
                 Grant Godbehere
             </Typography>
