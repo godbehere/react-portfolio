@@ -24,11 +24,16 @@ function ProjectCard(props) {
         />
         <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-            {props.proj.title}
+                {props.proj.title}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-            {props.proj.description}
+                {props.proj.description}
             </Typography>
+            <br/>
+            <Typography gutterBottom variant="h6" component="div">
+                Technologies Used
+            </Typography>
+                <ul>{props.proj.tech}</ul>
         </CardContent>
         <CardActions>
             <Button size="small">

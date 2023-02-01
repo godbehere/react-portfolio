@@ -9,6 +9,7 @@ import AppBar from '@mui/material/AppBar';
 import Typography from '@mui/material/Typography';
 import AboutMe from './about-me';
 import Projects from './projects';
+import Skills from './skills';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -66,8 +67,9 @@ export default function NavBar() {
             centered
           >
             <Tab label="About Me" {...a11yProps(0)} />
-            <Tab label="Projects" {...a11yProps(1)} />
-            <Tab label="Contact" {...a11yProps(2)} />
+            <Tab label="Skills" {...a11yProps(1)} />
+            <Tab label="Projects" {...a11yProps(2)} />
+            {/* <Tab label="Contact" {...a11yProps(3)} /> */}
           </Tabs>
         </AppBar>
         <SwipeableViews
@@ -79,11 +81,14 @@ export default function NavBar() {
             <AboutMe />
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>
-            <Projects />
+            <Skills />
           </TabPanel>
           <TabPanel value={value} index={2} dir={theme.direction}>
             <Projects />
           </TabPanel>
+          {/* <TabPanel value={value} index={3} dir={theme.direction}>
+            <Projects />
+          </TabPanel> */}
         </SwipeableViews>
       </Box>
     );

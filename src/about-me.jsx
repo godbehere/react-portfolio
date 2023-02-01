@@ -54,8 +54,10 @@ export default function AboutMe() {
                 <Divider variant="middle" />
                 <br/>
             <Typography align='justify' variant="body1" gutterBottom>
-                Thanks for taking the time to get to know me a little better.
-                To get a better acquainted with me and my work, check out the
+                Thanks for taking the time to get to know about me. You can find
+                a full list of languages, frameworks, and technologies that I am
+                familiar with under the "Skills" tab.
+                To get better acquainted with me and my work, check out the
                 projects I have shared under the "Projects" tab. You can also find
                 links to my GitHub and LinkedIn profiles below.
             </Typography>
